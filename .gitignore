@@ -1,0 +1,10 @@
+dafny_grammar/antlr-4.13.1-complete.jar
+dafny_grammar/__pycache__
+
+dafny
+myenv
+
+Commands
+df-main3.py
+.idea
+.DS_Store
