@@ -512,6 +512,15 @@ class dafnyListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by dafnyParser#opaqueAttribute.
+    def enterOpaqueAttribute(self, ctx:dafnyParser.OpaqueAttributeContext):
+        pass
+
+    # Exit a parse tree produced by dafnyParser#opaqueAttribute.
+    def exitOpaqueAttribute(self, ctx:dafnyParser.OpaqueAttributeContext):
+        pass
+
+
     # Enter a parse tree produced by dafnyParser#functionSignatureOrEllipsis_.
     def enterFunctionSignatureOrEllipsis_(self, ctx:dafnyParser.FunctionSignatureOrEllipsis_Context):
         pass

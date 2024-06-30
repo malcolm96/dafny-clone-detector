@@ -204,7 +204,7 @@ def analyze_similarity(components):
                 subtree1 = trees[i]
                 subtree2 = trees[j]
                 similarity_score, mapping1, mapping2 = compare_subtrees(subtree1, subtree2)
-                if similarity_score > 0:
+                if similarity_score > 0.7:
                     print(
                         f"\n\nSimilarity score between {component_type} '{names[i]}' and {component_type} '{names[j]}' : {similarity_score}")
 

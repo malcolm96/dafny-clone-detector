@@ -468,7 +468,7 @@ formals
 
 functionDecl
     : (
-        ( 'twostate' )? 'function' ( 'method' )? attribute*
+        ( 'twostate' )? 'function' ( 'method' )? attribute* opaqueAttribute?
         methodFunctionName
         functionSignatureOrEllipsis_
       | 'predicate' ( 'method' )? attribute*
@@ -480,6 +480,10 @@ functionDecl
       )
       functionSpec
       (functionBody)?
+    ;
+
+opaqueAttribute
+    : '{:opaque}'
     ;
 
 functionSignatureOrEllipsis_
