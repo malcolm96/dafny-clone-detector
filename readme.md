@@ -1,4 +1,4 @@
-# Dafny Program Analyzer
+# Dafny Clone Detector
 
 This project is a Python application that analyzes Dafny programs for similarity in their components. It uses the ANTLR4 parser generator to parse Dafny source code and analyze the resulting parse tree.
 
@@ -21,6 +21,6 @@ Please be aware that this program is currently in the early stages of developmen
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/malcolm96/dafny-program-analyzer.git
+git clone https://github.com/malcolm96/dafny-clone-detector.git
 cd dafny-program-analyzer
 
